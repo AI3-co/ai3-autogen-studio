@@ -1,5 +1,6 @@
 {
   "name": "AutoGen_Studio",
+  "node": ">=20.0.0",
   "version": "1.0.0",
   "private": true,
   "description": "AutoGen Studio - Build LLM Enabled Agents",
