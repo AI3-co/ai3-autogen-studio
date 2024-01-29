@@ -42,7 +42,7 @@ jobs:
         with:
           node-version: '20'
       - name: Install dependencies
-        run: npm install
+        run: npm install --legacy-peer-deps
 
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
